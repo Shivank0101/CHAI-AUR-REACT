@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import ReactInterviewonCounter from './ReactInterviewonCounter';
+
 
 function App() {
 
@@ -27,6 +29,10 @@ function App() {
 
       <br></br>
       <button onClick={decreaseValue}>Remove Value</button>
+
+      <h1>React Interview question on Counter</h1>
+      <ReactInterviewonCounter/>
+
     </>
   )
 }
