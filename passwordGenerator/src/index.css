@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+    background-color: black; /* Or use the hex code #000000 */
+    color: white; /* Optional: Set text color to white for better readability on a black background */
+}
